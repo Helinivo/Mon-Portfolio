@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Helinivo Youmna Bruna RAKOTOVAO</title>
+        <link rel="stylesheet" href="portfolio-style.css">
+    </head>
+    <body>
+
+         <!-- Navigation -->
+        <header>
+            <nav>
+                <div class="logo"><span class="nom">RAKOTOVAO</span> Helinivo Youmna Bruna</div>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#project">Projets</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+
+        <!-- Section Accueil -->
+        <section id="home">
+            <div class="img-container">
+                <figure class="left-img">
+                    <img src="developer.jpg" alt="Développeur Web">
+                    <figcaption>Designed by <a href="https://www.freepik.com">Freepik</a></figcaption>
+                </figure>
+                <article class="text">
+                    <h2>Bienvenue sur mon Portfolio</h2>
+                    <p>Je suis <span class="prenom">Youmna</span>, développeur web en devenir, passionnée par l'Entomologie.</p>
+                </article>
+                <figure class="right-img">
+                    <img src="papillon.jpg" alt="Papillon sur une fleur">
+                    <figcaption>Designed by <a href="https://www.freepik.com">Freepik</a></figcaption>
+                </figure>
+            </div>
+            <a href="#about" class="btn" aria-label="En savoir plus sur Youmna">En savoir plus sur moi</a>
+        </section>
+
+         <!-- Section A Propos-->
+        <section id="about">
+            <h2>A Propos</h2>
+            <p>Je suis une passionnée de développement web avec un intérêt particulier pour l'Entomologie.</p>
+            <p>J'ai créé ce site pour mettre en pratique mes compétences en développement et pour offrir un contenu éducatif sur les insectes
+                et leur rôle dans notre environnement.</p>
+            <p> Parcourez mon site pour encore plus de détails</p>
+            <a href="#project" class="btn">Découvrez mon projet !</a>
+          </section>
+
+           <!-- Section Projets -->
+            <section id="project">
+                <h2>Mon Projet</h2>
+                    <div class="project-item">
+                        <h3>Quiz Ludique sur les Insectes</h3>
+                    <p>Envie de tester vos connaissances sur les insectes ? Ce quiz est fait pour vous !</p>
+                    <a href="quiz.html" class="btn">Commencez le Quiz</a>
+                    </div>
+            </section>
+
+            
+          <!-- Section Compétences -->
+           <section id="skills">
+            <h2>Mes Compétences</h2>
+            <div class="skills-container">
+
+                <!-- Compétences Linguistiques -->
+                <div class="skills-block">
+                    <h3>Compétences Linguistiques</h3>
+                    <div class="competences-container">
+                        <div class="skill">
+                            <span>Français</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width:80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Anglais</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width:60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Arabe</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width:40%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Malagasy</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width:60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Italien</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width:40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- Compétences techniques -->
+                <div class="skills-block">
+                    <h3>Compétences techniques</h3>
+                    <div class="competences-container">
+                        <div class="skill">
+                            <span>HTML</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width:80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JS</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 40%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>VS Code</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </section>
+
+             <!-- Formulaire de Contacts -->
+            <section id="contact">
+                <h2><span class="highlight-idee">Des idées</span> à concrétiser ? <br> 
+                    <span class="highlight-ecrivez">Écrivez-moi</span> !</h2>                    
+                 <form id="contactForm">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" placeholder="Votre nom" required />
+      
+                    <label for="prenom">Prénom(s) :</label>
+                    <input type="text" id="prenom" placeholder="Votre prénom(s)" required />
+      
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" placeholder="Votre email" required />
+      
+                    <label for="message">Message :</label>
+                    <textarea id="message" placeholder="Écrivez votre message ici" required></textarea>
+                    
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+
+              <!-- Pied de Page -->
+               <footer>
+                <div class="footer-content">
+                    <div class="left">
+                        <p>&copy; Tous droits réservés - 2025</p>
+                    </div>
+                    <div class="right">
+                        <p>Designed by RAKOTOVAO H. Y. B. with HTML CSS JS</p>
+                    </div>
+                </div>
+               </footer>
+
+               <script src="portfolio-script.js"></script>
+    </body>
+</html>

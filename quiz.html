@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sur les Insectes</title>
+    <link rel="stylesheet" href="quiz-style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Ludique sur les Insectes</h1>
+    </header>
+    <section id="quiz-container">
+        <form id="quiz-form">
+                <!-- Les questions seront ajoutées ici par JS -->
+        </form>
+            <button id="submit-btn">Voir les Résultats</button>
+    </section>
+    
+    <!--Résultats-->
+    <section id="result-container" class="hidden">
+        <h2>Résultats</h2>
+        <p id="score">Votre score : 0/10</p>
+        <div id="feedback"></div>
+        <button id="restart-btn">Recommancer</button>
+    </section>
+
+    <script src="quiz-script.js"></script>
+</body>
+</html>
